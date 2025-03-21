@@ -1,0 +1,26 @@
+Step-by-Step Execution Explanation of day6_exercise_01.py
+============================================================
+
+Step 1: Define the function `count_words_and_lines`
+This function takes a file path as input, reads the file, counts the number of lines, and calculates the total number of words in the file.
+
+Step 3: Enter the try block to execute the main logic
+File path set to: udemy/ai-engineering-masterclass/Day6/sample_file_read.txt
+Step 4: Call the `count_words_and_lines` function
+Step 2: Open the file and read its contents
+Opening the file at path: udemy/ai-engineering-masterclass/Day6/sample_file_read.txt
+File read successfully. Total lines read: 12
+Total words counted in the file: 26
+
+Function returned: Number of lines = 12, Number of words = 26
+
+Step 5: Print the results
+Number of lines: 12
+Number of words: 26
+
+Step 7: Execute the finally block
+The finally block is always executed, regardless of whether an exception occurred.
+
+============================================================
+End of Execution Explanation
+============================================================
