@@ -18,9 +18,12 @@ def write_list_to_file(output_file_path, items):
             for item in items:
                 file.write(f"{item}\n")
             print("List written to file successfully!")
-            print("\nList items:")
+        
+        with open(output_file_path, "r") as file:
+            print("\nReading items from file:")
+            items = file.readlines()
             for item in items:
-                print(item)
+                print(item.strip())
                 
     except NameError as e:
         print(f"Error: {e}")
@@ -37,6 +40,6 @@ def write_list_to_file(output_file_path, items):
     except Exception as e:
         print(f"Error: {e}")
 
-items = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
-write_list_to_file(output_file_path, items)
+fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+write_list_to_file(output_file_path, fruits)
 
