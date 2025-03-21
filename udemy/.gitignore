@@ -30,6 +30,7 @@ Thumbs.db
 
 # Custom ignore rules
 # Ignore below files under ai-engineering-masterclass/Day6 directory
+ai-engineering-masterclass/Day6/sample_file_write_01.txt
 ai-engineering-masterclass/Day6/sample_file_write_02.txt
 ai-engineering-masterclass/Day6/sample_file_write_03.txt
 ai-engineering-masterclass/Day6/sample_file_write_04.txt
